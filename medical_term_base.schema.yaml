@@ -69,7 +69,6 @@ speller:
 
 translator:
   dictionary: medical_term_base
-  spelling_hints: 8
 
 punctuator:
   import_preset: default
@@ -81,3 +80,7 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*'?$"
+
+menu:
+  page_size: 12
+  inline_preedit: true

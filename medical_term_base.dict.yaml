@@ -1,6 +1,6 @@
 ---
-name: substance_abuse_glossary
-version: "0.1"
+name: medical_term_base
+version: "0.1.1"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -20,7 +20,7 @@ import_tables:
 # 0: p
 
 # 快速访问
-https://github.com/cao-awa/Substance-Abuse-Glossary	!github	999999
+https://github.com/cao-awa/medical-term-base	!github	999999
 
 
 
@@ -56,6 +56,8 @@ https://github.com/cao-awa/Substance-Abuse-Glossary	!github	999999
 
 立即	st	999999
 
+身份证	id 999999
+
 # Around the clock
 全天持续	atc	999999
 
@@ -63,6 +65,7 @@ https://github.com/cao-awa/Substance-Abuse-Glossary	!github	999999
 
 禁食禁水	npo	999999
 
+# ???
 丢垃圾	tar	999999
 
 
@@ -262,183 +265,233 @@ G蛋白偶联受体	utmq	999999
 # 血清素1受体
 血清素1受体	htr1	999999
 血清素1受体	ht1	999999
+血清素1受体	5ht1	999999
 血清素1亚科	htr1	999999
 血清素1亚科	ht1	999999
-# 原缩写为htr1/ht1
+# 原缩写为htr1/ht1/5ht1
 血清素1受体	htrq	999999
 血清素1受体	htq	999999
+血清素1受体	thtq	999999
 血清素1亚科	htrq	999999
 血清素1亚科	htq	999999
 
 # 血清素1A受体
 血清素1A受体	htr1a	999999
 血清素1A受体	ht1a	999999
+血清素1A受体	5ht1a	999999
 # 原缩写为htr1a/ht1a
 血清素1A受体	htrqa	999999
 血清素1A受体	htqa	999999
+血清素1A受体	thtqa	999999
 
 # 血清素1B受体
 血清素1B受体	htr1b	999999
 血清素1B受体	ht1b	999999
-# 原缩写为htr1b/ht1b
+血清素1B受体	5ht1b	999999
+# 原缩写为htr1b/ht1b/5ht1b
 血清素1B受体	htrqb	999999
 血清素1B受体	htqb	999999
+血清素1B受体	thtqb	999999
 
 # 血清素1D受体
 血清素1D受体	htr1d	999999
 血清素1D受体	ht1d	999999
-# 原缩写为htr1d/ht1d
+血清素1D受体	5ht1d	999999
+# 原缩写为htr1d/ht1d/5ht1d
 血清素1D受体	htrqd	999999
 血清素1D受体	htqd	999999
+血清素1D受体	thtqd	999999
 
 # 血清素1E受体
 血清素1E受体	htr1e	999999
 血清素1E受体	ht1e	999999
-# 原缩写为htr1e/ht1e
+血清素1E受体	5ht1e	999999
+# 原缩写为htr1e/ht1e/5ht1e
 血清素1E受体	htrqe	999999
 血清素1E受体	htqe	999999
+血清素1E受体	thtqe	999999
 
 # 血清素1F受体
 血清素1F受体	htr1f	999999
 血清素1F受体	ht1f	999999
-# 原缩写为htr1f/ht1f
+血清素1F受体	5ht1f	999999
+# 原缩写为htr1f/ht1f/5ht1f
 血清素1F受体	htrqf	999999
 血清素1F受体	htqf	999999
+血清素1F受体	thtqf	999999
 
 # 血清素1P受体
 血清素1P受体	htr1p	999999
 血清素1P受体	ht1p	999999
-# 原缩写为htr1p/ht1p
+血清素1P受体	5ht1p	999999
+# 原缩写为htr1p/ht1p/5ht1p
 血清素1P受体	htrqp	999999
 血清素1P受体	htqp	999999
+血清素1P受体	thtqp	999999
 
 # 血清素2受体
 血清素2受体	htr2	999999
 血清素2受体	ht2	999999
+血清素2受体	5ht2	999999
 血清素2亚科	htr2	999999
 血清素2亚科	ht2	999999
-# 原缩写为htr2/ht2
+血清素2亚科	5ht2	999999
+# 原缩写为htr2/ht2/5ht2
 血清素2受体	htrw	999999
 血清素2受体	htw	999999
+血清素2受体	thtw	999999
 血清素2亚科	htrw	999999
 血清素2亚科	htw	999999
+血清素2亚科	thtw	999999
 
 # 血清素2A受体
 血清素2A受体	htr2a	999999
 血清素2A受体	ht2a	999999
-# 原缩写为htr2a/ht2a
+血清素2A受体	5ht2a	999999
+# 原缩写为htr2a/ht2a/5ht2a
 血清素2A受体	htrwa	999999
 血清素2A受体	htwa	999999
+血清素2A受体	thtwa	999999
 
 # 血清素2B受体
 血清素2B受体	htr2b	999999
 血清素2B受体	ht2b	999999
-# 原缩写为htr2b/ht2b
+血清素2B受体	5ht2b	999999
+# 原缩写为htr2b/ht2b/5ht2b
 血清素2B受体	htrwb	999999
 血清素2B受体	htwb	999999
+血清素2B受体	thtwb	999999
 
 # 血清素2C受体
 血清素2C受体	htr2c	999999
 血清素2C受体	ht2c	999999
-# 原缩写为htr2c/ht2c
+血清素2C受体	5ht2c	999999
+# 原缩写为htr2c/ht2c/5ht2c
 血清素2C受体	htrwc	999999
 血清素2C受体	htwc	999999
+血清素2C受体	thtwc	999999
 
 # 血清素3受体
 血清素3受体	htr3	999999
 血清素3受体	ht3	999999
+血清素3受体	5ht3	999999
 血清素3亚科	htr3	999999
 血清素3亚科	ht3	999999
-# 原缩写为htre/hte
+血清素3亚科	5ht3	999999
+# 原缩写为htr3/ht3/5ht3
 血清素3受体	htre	999999
 血清素3受体	hte	999999
+血清素3受体	thte	999999
 血清素3亚科	htre	999999
 血清素3亚科	hte	999999
+血清素3亚科	thte	999999
 
 # 血清素3A受体
 血清素3A受体	htr3a	999999
 血清素3A受体	ht3a	999999
-# 原缩写为htr3a/ht3a
+血清素3A受体	5ht3a	999999
+# 原缩写为htr3a/ht3a/5ht3a
 血清素3A受体	htrea	999999
 血清素3A受体	htea	999999
+血清素3A受体	thtea	999999
 
 # 血清素3B受体
 血清素3B受体	htr3b	999999
 血清素3B受体	ht3b	999999
-# 原缩写为htr3b/ht3b
+血清素3B受体	5ht3b	999999
+# 原缩写为htr3b/ht3b/5ht3b
 血清素3B受体	htreb	999999
 血清素3B受体	hteb	999999
+血清素3B受体	thteb	999999
 
 # 血清素3C受体
 血清素3C受体	htr3c	999999
 血清素3C受体	ht3c	999999
-# 原缩写为htr3c/ht3c
+血清素3C受体	5ht3c	999999
+# 原缩写为htr3c/ht3c/5ht3d
 血清素3C受体	htrec	999999
 血清素3C受体	htec	999999
+血清素3C受体	thtec	999999
 
 # 血清素3D受体
 血清素3D受体	htr3d	999999
 血清素3D受体	ht3d	999999
-# 原缩写为htr3d/ht3d
+血清素3D受体	5ht3d	999999
+# 原缩写为htr3d/ht3d/5ht3d
 血清素3D受体	htred	999999
 血清素3D受体	hted	999999
+血清素3D受体	thted	999999
 
 # 血清素3E受体
 血清素3E受体	htr3e	999999
 血清素3E受体	ht3e	999999
-# 原缩写为htr3e/ht3e
+血清素3E受体	5ht3e	999999
+# 原缩写为htr3e/ht3e/5ht3e
 血清素3E受体	htree	999999
 血清素3E受体	htee	999999
+血清素3E受体	5htee	999999
 
 # 血清素4受体
 血清素4受体	htr4	999999
 血清素4受体	ht4	999999
-# 原缩写为htr4/ht4
+血清素4受体	5ht4	999999
+# 原缩写为htr4/ht4/5ht4
 血清素4受体	htrr	999999
 血清素4受体	htr	999999
+血清素4受体	5htr	999999
 
 # 血清素5受体
 血清素5受体	htr5	999999
 血清素5受体	ht5	999999
+血清素5受体	5ht5	999999
 血清素5亚科	htr5	999999
 血清素5亚科	ht5	999999
-# 原缩写为htr5/ht5
+血清素5亚科	5ht5	999999
+# 原缩写为htr5/ht5/5ht5
 血清素5受体	htrt	999999
 血清素5受体	htt	999999
+血清素5受体	thtt	999999
 血清素5亚科	htrt	999999
 血清素5亚科	htt	999999
+血清素5亚科	thtt	999999
 
 # 血清素5A受体
 血清素5A受体	htr5a	999999
 血清素5A受体	ht5a	999999
-# 原缩写为htr5a/ht5a
+血清素5A受体	5ht5a	999999
+# 原缩写为htr5a/ht5a/5ht5a
 血清素5A受体	htrta	999999
 血清素5A受体	htta	999999
+血清素5A受体	thtta	999999
 
 # 血清素5B受体
 血清素5B受体	htr5b	999999
 血清素5B受体	ht5b	999999
+血清素5B受体	5ht5b	999999
 血清素5B受体	htr5bp	999999
-血清素5B受体	ht5bp	999999
-# 原缩写htr5b/ht5b/htr5bp/ht5bp
+# 原缩写htr5b/ht5b/htr5bp
 血清素5B受体	htrtb	999999
 血清素5B受体	httb	999999
+血清素5B受体	thttb	999999
 血清素5B受体	htrtbp	999999
-血清素5B受体	httbp	999999
 
 # 血清素6受体
 血清素6受体	htr6	999999
 血清素6受体	ht6	999999
-# 原缩写为htr6/ht6
+血清素6受体	5ht6	999999
+# 原缩写为htr6/ht6/5ht6
 血清素6受体	htry	999999
 血清素6受体	hty	999999
+血清素6受体	thty	999999
 
 # 血清素7受体
 血清素7受体	htr7	999999
 血清素7受体	ht7	999999
-# 原缩写为htr7/ht7
+血清素7受体	5ht7	999999
+# 原缩写为htr7/ht7/5ht7
 血清素7受体	htru	999999
 血清素7受体	htu	999999
+血清素7受体	thtu	999999
 
 # 组胺受体
 组胺受体	hr	999999
